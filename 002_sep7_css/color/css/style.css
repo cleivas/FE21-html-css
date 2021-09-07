@@ -1,0 +1,15 @@
+p{
+    background-color: cornsilk;
+}
+
+ol{
+    color: #ff3571;
+}
+
+h1{
+    color: hsl(100, 58%, 27%);
+}
+
+section p{
+    color: rgb(255, 0, 0);
+}

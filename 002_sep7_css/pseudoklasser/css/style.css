@@ -1,0 +1,16 @@
+/*Pseudoklasserna  måste skrivas i denna ordningen annars apliceras inte stilen korrekt*/
+
+a:link{
+    background-color: white;
+    color: black;
+}
+
+a:visited{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+a:hover{
+    background-color: orange;
+}
+

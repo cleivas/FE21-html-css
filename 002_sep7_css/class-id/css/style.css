@@ -1,0 +1,14 @@
+/*element selector*/
+p{
+    border: solid black 3px;
+}
+
+/*class selector*/
+.pinkdots{
+    border: dotted pink 10px;
+}
+
+/*ID selector */
+#purpledash{
+    border: purple dashed 2px;
+}
