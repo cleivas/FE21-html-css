@@ -1,0 +1,30 @@
+div{
+    border: solid 3px khaki;
+    margin-bottom: 3rem;
+}
+
+.box1{
+    border-color: seagreen;
+}
+
+p{
+    border: solid 3px aquamarine;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    border: solid 3px plum;
+    margin: 0;
+    margin-bottom: 1.1rem;
+    margin-left: 2rem;
+}
+
+a{
+    border: solid 3px hotpink;
+    margin: 2rem;
+    padding: 2rem;
+}
+

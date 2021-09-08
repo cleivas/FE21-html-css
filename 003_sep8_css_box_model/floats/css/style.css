@@ -1,0 +1,16 @@
+.floatleft{
+    float: left; 
+    margin:0 1rem 1rem 0;
+}
+
+.floatright{
+    float: right;
+}
+
+article{
+    width: 25rem;
+    border: hotpink solid 3px;
+    margin: 0 auto;
+    overflow: auto;
+}
+

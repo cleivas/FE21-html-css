@@ -1,0 +1,32 @@
+nav ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    /* border: solid navy 3px; */
+    padding-left: 0;
+    height: 2.5rem;
+    overflow: hidden;
+}
+nav li{
+    /* border: solid goldenrod 3px; */
+    width: 10rem;
+    text-align: center;
+    margin-bottom: .2rem;
+    margin-right: .02rem;
+    background-color: #D9B8B8;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: #464B59;
+    display: block;
+    /* border: solid palevioletred 3px; */
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+nav a:hover{
+    color: #D9B8B8;
+    background-color: #464B59;
+}
