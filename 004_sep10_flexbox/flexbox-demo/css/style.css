@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+ul{
+    list-style-type: none;
+    border: 2px solid cornflowerblue;
+    height: 400px;
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; 
+    justify-content: space-between; /*main axis */
+
+    align-items: space-between; /*cross axis */
+}
+
+li{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid coral;
+
+    flex-basis: 10%; /*width eftersom våran container har direction row*/
+
+    /*flex: grow shrink basis; är shorthand*/
+}
+
+.item-1{
+    order: 1;
+    flex-shrink: 1;
+}
+
+.grow-5{
+    flex-grow: 5;
+}
