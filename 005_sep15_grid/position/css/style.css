@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+div{
+    border: solid 3px black;
+    background-color: deepskyblue;
+    width: 10rem;
+    height: 10rem;
+    
+    display: inline-block;
+    margin: 3rem;
+}
+
+
+
+body div:nth-child(3){
+    background-color: darkorange;
+
+    /* static, relative, absolute, fixed, sticky */
+    position: static;
+    top: 0px; 
+    left: 0px;
+
+}
+
